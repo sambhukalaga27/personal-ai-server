@@ -32,11 +32,9 @@ app.use('/api/v1/llm', llmRouter);
 // Root Path GET
 app.get('/', ( req, res ) => {
   return res.status(200).json({
-    service: 'Custom AI Backend',
-    author: 'Nikhil Gajam',
-    message: 'This is a secure API for interacting with a custom AI model.',
-    github: 'https://github.com/nikhilgajam',
-    youtube: 'https://youtube.com/nikhiltech'
+    service: 'Personal AI Backend',
+    author: 'Sai Sambhu Prasad Kalaga',
+    message: 'This is a secure API for interacting with a personal AI model.'
   });
 });
 
